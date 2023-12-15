@@ -568,6 +568,18 @@ video {
   height: 39px;
 }
 
+.h-\[355px\] {
+  height: 355px;
+}
+
+.h-\[143px\] {
+  height: 143px;
+}
+
+.h-\[223px\] {
+  height: 223px;
+}
+
 .w-334 {
   width: 334px;
 }
@@ -598,6 +610,18 @@ video {
 
 .w-348 {
   width: 348px;
+}
+
+.w-\[512px\] {
+  width: 512px;
+}
+
+.w-482 {
+  width: 482px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink {
@@ -746,6 +770,10 @@ video {
   gap: 5rem;
 }
 
+.gap-\[10px\] {
+  gap: 10px;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -780,6 +808,10 @@ video {
 
 .rounded-\[9999px\] {
   border-radius: 9999px;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-e-border-radius-9999 {
@@ -856,6 +888,16 @@ video {
 .bg-searchbar-fill {
   --tw-bg-opacity: 1;
   background-color: rgb(33 35 39 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-Neutral-1000 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .fill-\[\#737373\] {
@@ -978,6 +1020,51 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-\[100x\] {
+  padding-top: 100x;
+  padding-bottom: 100x;
+}
+
+.px-\[100x\] {
+  padding-left: 100x;
+  padding-right: 100x;
+}
+
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1074,6 +1161,14 @@ video {
   padding-left: 1rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1108,6 +1203,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .font-bold {
@@ -1178,6 +1277,10 @@ video {
 .text-Neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .placeholder-neutral-500::-moz-placeholder {

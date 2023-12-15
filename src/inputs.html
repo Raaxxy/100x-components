@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link href="../dist/output.css" rel="stylesheet"/>
+</head>
+<body class="bg-black font-inter flex flex-col gap-10 text-white pt-[100px] items-center">
+    <div class="flex flex-row flex-wrap gap-7 items-center">
+        <p class="text-white font-bold">Default</p>
+            <fieldset class="flex w-426 py-4 px-3 items-center gap-2.5 rounded-border-radius-4 border border-neutral-500 bg-transparent">
+                <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal">Label</legend>
+                    <input type="text" placeholder="label" class="font-inter text-xl not-italic font-normal leading-normal placeholder-Neutral-500 bg-transparent focus:outline-none">
+            </fieldset>
+    </div>
+    <div class="flex flex-row flex-wrap gap-5 items-center">
+        <p class="text-white font-bold">Selected</p>
+        <fieldset class="flex justify-between w-426 py-4 px-3 items-center gap-2.5 rounded-border-radius-4 border border-neutral-500 bg-transparent focus-within:border-twitter-blue-default">
+            <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal">Label</legend>
+                <input type="text" placeholder="label" class="font-inter text-xl not-italic font-normal leading-normal placeholder-Neutral-500 bg-transparent focus:outline-none">
+                <img src="../public/images/correct.svg" alt="Green correct" class=" flex-shrink-0 ">
+        </fieldset>
+    </div>
+    <div class="flex gap-4 items-center">
+        <p class="text-white font-bold">Default</p>
+        <div class="flex gap-4 items-center">
+            <img src="../public/images/user-avatar.svg" alt="user-avatar">
+            <input type="text" placeholder="What's happening?!" class="bg-transparent flex w-434 items-center flex-shrink-0 self-stretch placeholder-neutral-600 focus:outline-none">
+        </div>
+    </div>
+    <div class="flex gap-6 items-center">
+        <p class="text-white font-bold items-start">Filled</p>
+        <div class="flex flex-row gap-4 items-center">
+        <img src="../public/images/user-avatar.svg" alt="user-avatar">
+        <p class="text-white flex-shrink-0 item w-434">Feel like a brand new person</p>
+        </div>
+    </div>
+    <div class="flex items-center gap-24">
+        <p class="text-white font-bold">Default</p>
+        <div class=" flex  w-348 h-39 pt-2.5 pl-[16px] pr-[247px] items-start gap-[15px] flex-shrink-0 rounded-[9999px] bg-searchbar-fill ">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 fill-[#737373] ">
+                <g id="Group">
+                <path id="Vector" d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"/>
+                </g>
+            </svg>
+            <input type="text" placeholder="Search" class="bg-transparent placeholder-neutral-600 font-normal leading-normal focus:outline-none"> 
+        </div>
+    </div>
+    <div class="flex items-center gap-20">
+        <p class="text-white font-bold">Selected</p>
+        <div class=" flex group w-348 h-39 pt-2.5 pl-[16px] pr-[247px] items-start gap-[15px] flex-shrink-0 rounded-[9999px] bg-searchbar-fill focus-within:border focus-within:border-twitter-blue-default">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 fill-[#737373] group-focus-within:fill-twitter-blue-default">
+                <g id="Group">
+                <path id="Vector" d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"/>
+                </g>
+            </svg>
+            <input type="text" placeholder="Search" class="bg-transparent placeholder-neutral-600 font-normal leading-normal focus:outline-none"> 
+        </div>
+    </div>
+   
+</body>
+</html>
